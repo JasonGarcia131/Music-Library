@@ -10,7 +10,7 @@ let [message, setMessage] = useState('search for music!')
 let [search, setSearch] = useState('')
 let [data, setData] = useState([])
 
-const API_URL = 'https://itunes.apple.com/search?term='
+const API_URL = `https://itunes.apple.com/search?term=`
 
 useEffect(()=>{
     if(search){
